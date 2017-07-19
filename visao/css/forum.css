@@ -1,0 +1,50 @@
+.tblForum th {
+    color: white;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+}
+
+.tblForum .td_center {
+    vertical-align: middle;
+    width: 10px;
+}
+
+.forum_perfil {
+    width: 50%;
+    height: 380px;
+    border: solid;
+    background-color: #EDF2ED;
+}
+
+.mensagens_privadas_menu {
+    border: solid;
+    background-color: #EDF2ED;
+    padding: 10px;
+}
+
+.mensagens_privadas {
+    border: solid;
+    background-color: #EDF2ED;
+    padding: 10px;
+}
+
+.mensagens_privadas_menu a, .mensagens_privadas span {
+    margin-left: 15px;
+}
+
+
+
+.cboForum i {
+    font-size: 20px;
+}
+
+.cboForum i a {
+    font-size: 15px;
+}
+
+.cboForum i.fa-user {
+    color: #1B7AD8;
+}
+
+.cboForum i.fa-commenting {
+    color: #777;
+}

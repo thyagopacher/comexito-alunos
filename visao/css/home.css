@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/07/2017, 17:50:10
+    Author     : thyagopacher
+*/
+.menu_lateral {
+    background-color: #EFEFEF;
+    border: 1px solid grey;
+    border-radius: 10px;    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.menu_lateral i {
+    font-size: 25px;
+}
+
+.menu_lateral span {
+    font-size: 12px;
+    color: #C50000;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.menu_lateral p {
+    text-align: justify;
+}
+
+#desc_curs {
+    font-size: 20px;
+    color: #C50000;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#tabela_home thead th{
+    background: #999999;
+    color: white;
+}
+
+.alturaControlada{
+    max-height: 380px;
+    overflow-y: auto;
+}
+
+.vermelho{
+    color: #C50000;
+}
+
+.txtGrande{
+    font-size: 20px;
+}
+
+
+#links_cadastro{
+    margin-top: 40px;
+}
+.menu_lateral .fa-users{
+    color: #1B7AD8;
+}
+
+.acesso {
+    margin-top: 10px;
+    font-size: 11px;    
+}
+
+.acesso i {
+    margin-left: 5px;
+    font-size: 20px;
+    color: blue;    
+}
+
+.acesso a {
+    font-size: 12px;
+    color: black;
+}

@@ -1,0 +1,133 @@
+html {
+    font-family: arial;
+}
+
+html i span {
+    font-family: arial !important;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;} 
+}
+
+#div_ambiente_ensino {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F1F1F1, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F1F1F1, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F1F1F1, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F1F1F1, white); /* Standard syntax */       
+    margin-bottom: 20px;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+}
+
+#div_ambiente_ensino a {
+    font-size: 11px;
+    color: black;    
+}
+
+#div_ambiente_ensino span {
+    font-size: 15px;
+    color: #C50000;
+}
+
+#div_ambiente_ensino p {
+    font-size: 10px;
+    color: #C50000;
+}
+
+#div_ambiente_ensino i {
+    font-size: 35px;
+    background: -webkit-linear-gradient(rgb(208, 50, 54), rgba(208, 50, 54, 0.47));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav_menu .col-md-2:hover {
+    border: solid 1px;
+    box-shadow: 2px 2px 2px black;
+}
+.separador_meuscursos {
+    border-top: 1px solid grey; 
+}
+#div_boneco {
+    z-index: 4;
+}
+#acesso_rapido{
+    margin-top: 30px;
+}
+#acesso_rapido button {
+    width: 30px;
+    height: 32px;
+    font-size: 15px;
+}
+
+/**media query resolução de no máx 480px width.*/
+@media only screen and (max-width: 480px) {
+    .separador_meuscursos{
+        border-bottom: 0px;
+    }    
+}
+
+/**media query resolução de no min 860px width.*/
+@media only screen and (min-width: 970px) {
+    .separador_meuscursos{
+         margin-top: -47px;
+    }    
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.bonecao {
+    font-size: 100px !important;
+    border: 1px solid black;
+    background: white;
+    padding: 5px;
+    margin: 5px;
+    color: #DDBB7B;
+}
+
+i span {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: central;
+    color: #C50000;
+}
+
+.fa-file-pdf-o {
+    background: red;
+    color: white;
+}
+.table .progress{
+    margin-bottom: 0px;
+}
