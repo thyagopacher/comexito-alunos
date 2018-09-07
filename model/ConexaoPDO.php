@@ -9,10 +9,10 @@ set_time_limit(0);
 
 class ConexaoPDO {
 
-    public $host = '186.202.124.22';
-    public $usuario = 'comexito2';
-    public $senha = 'portbrasil8041';
-    public $banco = 'comexito2';
+    public $host = '';
+    public $usuario = '';
+    public $senha = '';
+    public $banco = '';
     public $porta = '3306';
     public $conexao;
 
